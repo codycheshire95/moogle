@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d0efff80;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Newsreader', serif;
+}
+.container{
+    background-color: #d0efff;
+    background-image: url(imgs/background.png);
+    background-position: center;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .other-search{
+    font-size: 1.3em;
+    font-weight: bolder;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    padding: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 80%;
+    border: 8px outset #03254c;
+    background-color: #1167b180;
+}
+a{
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #03254c;
+    border-radius: 20px;
+    padding: 7px;
+    color: #03254c;
+    background-color:#ffd8d880;
+}
+a:hover{
+    background-color: #1167b180;
+}
+/*Logo Starts*/
+.logo{
+    font-size: 3em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+.logo img{
+    position: absolute;
+    height: 80px;
+    right: 23%;
+}
+.m{
+    color: #ffd8d8;
+}
+.o{
+    color: #f09090;
+}
+.l{
+    color: #8b4411;
+}
+.e{
+    color: #2a9df4;
+}
+.image{
+    color: #1167b1;
+    position: absolute;
+    right: 25%;
+    bottom: 44%;
+}
+/*Logo Ends*/
+
+form{
+    margin-top: 40px;
+    position: absolute;
+    bottom: 40%;
+    left: 21%;
+}
+.search img{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    z-index: 1;
+    left: 22%;
+    bottom: 36%;
+}
+input{
+    position: absolute;
+    left: 23%;
+    border: 2px solid #03254c;
+    background-color: #1167b180;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffd8d8;
+    border-radius: 30px;
+    height: 25px;
+    width: 200px;
+    padding:5px 300px 5px 40px;
+    text-align: start;
+}
+input::placeholder{
+    color: #ffd8d8;
+    width: 800px;
+}
