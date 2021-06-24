@@ -46,10 +46,6 @@ a:hover{
     align-items: center;
     margin-top: 15px;
 }
-.logo img{
-    height: 70px;
-    width: 70px;
-}
 .logo{
     font-size: 3.6em;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
