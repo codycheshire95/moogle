@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color:azure;
+}
+body{
+    background-color: #d0efff80;
+    background-image: url(https://github.com/codycheshire95/moogle/blob/main/image-background.jpg?raw=true);
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.other-search{
+    position: relative;
+    right: -22%;
+}
+span a{
+    font-size: 1.1em;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    color: #ffd8d8;
+    background-color:#03254ca9;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #1167b180;
+}
+.container{
+    background-color: #1167b180;
+    border: 8px outset #03254c;
+    height: 30vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+.logo{
+    font-size: 3em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.m{
+    color: #ffd8d8;
+}
+.o{
+    color: #f09090;
+}
+.l{
+    color: #8b4411;
+}
+.e{
+    color: #2a9df4;
+}
+.main .image{
+    position: relative;
+    left: 35%;
+    top: -15%;
+}
+input{
+    font-size: .3em;
+    font-weight: bold;
+    border: 2px solid #03254c;
+    background-color: #3c485380;
+    color: #ffd8d8;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.search .bar{
+    width: 45vw;
+    height: 20px;
+    padding-left: 7%;
+    padding-bottom: 1%;
+    background-image: url(https://github.com/codycheshire95/moogle/blob/main/icons8-search-64%20(1).png?raw=true);
+    background-size: 3%;
+    background-position: 2% 4%;
+    background-repeat: no-repeat;
+    line-height: 1.5em;
+}
+.search .bar:hover{
+    background-color: #1167b180;
+}
+input::placeholder{
+    color: #ffd8d8;
+    margin-left: 20px;
+}
+/*Media Queries*/
+@media (max-height:780px) and (orientation: landscape){
+    .container{
+        height: 37vh;
+    }
+}
+@media (max-width: 690px){
+    body{
+        font-size: .9em;
+    }
+}
+@media (max-width: 615px){
+    body{
+        font-size: .8em;
+    }
+    .container{
+        height: 28vh;
+    }
+}
+@media (max-width: 575px){
+    body{
+        font-size: .7em;
+    }
+    .container{
+        height: 24vh;
+    }
+    .logo img{
+        height: 60px;
+        width: 60px;
+    }
+    input{
+        font-size: .4em;
+    }
+}
+@media (max-width: 540px){
+    body{
+        font-size: .5em;
+    }
+    .container{
+        height: 19vh;
+    }
+    span a{
+        font-size: 1.5em;
+        border: 2px solid #00000080;
+        border-radius: 25px;
+        padding: 5px;
+        color: #ffd8d8;
+        background-color:#03254ca9;
+    }
+    input{
+        font-size: .4em;
+    }
+    input::placeholder{
+        font-size: 1.2em;
+    }
+}
+@media (max-height:541px) and (orientation: landscape){
+    .container{
+        height: 45vh;
+    }
+}
+@media (max-width: 425px){
+    .container{
+        width: 80vw;
+    }
+    input::placeholder{
+        font-size: 1.6em;
+    }
+}
+@media (max-height:490px) and (orientation: landscape){
+    .container{
+        height: 62vh;
+    }
+}
+@media (max-width: 380px){
+    .container{
+        height: 24vh;
+    }
+}
+@media (max-height:365px) and (orientation: landscape){
+    .container{
+        height: 75vh;
+    }
+}
+/*Media Queries Ends*/
